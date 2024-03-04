@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Front End</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box message">
+            <p class="wrong"></p>
+            <p class="success"></p>
+        </div>
+
+        <div class="box">
+            <button id="button-fetch" class="button-15" role="button">Fetch Hello</button>
+            <textarea name="text" id="text" class="text" cols="30" rows="10" disabled></textarea>
+        </div>
+
+        <div class="box">
+            <button id="button-create" class="button-15" role="button">Create Post</button>
+            <input type="text" name="text" id="text-field-title" class="text-field" placeholder="Title">
+            <input type="text" name="text" id="text-field-content" class="text-field" placeholder="Content">
+        </div>
+
+        <div class="box">
+            <button id="button-get" class="button-15" role="button">Show Posts</button>
+            <textarea name="text-posts" id="text-posts" class="text-posts" cols="30" rows="10" disabled></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
